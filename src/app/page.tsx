@@ -1,5 +1,6 @@
 import Table from "@/components/Table";
 import { employees } from "@/data/employee";
+import useSWR from 'swr';
 
 export default function Home() {
   return (
